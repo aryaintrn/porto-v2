@@ -69,3 +69,23 @@ span{
 .nav a.active{
     color: var(--second-color);
 }
+
+#menu-icon{
+    font-size: 25px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 1001;
+    margin-left: 25px;
+    display: none;
+}
+
+section{
+    padding: 160px 15% 120px;
+}
+
+.home-pages{
+    position: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+}
