@@ -87,5 +87,42 @@ section{
     position: center;
     height: 100vh;
     width: 100%;
-    background-image: url("../images/bg.jpg");
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slider{
+    margin-bottom: 20px;
+}
+
+.first{
+    display: inline-block;
+    margin-left: 15px;
+    height: 32px;
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.second{
+    display: inline-block;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-text h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+    color: var(--text-color);
+    list-style: 1.1;
+    margin: 0 0 8px;
 }
