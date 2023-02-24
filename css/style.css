@@ -126,3 +126,39 @@ section{
     list-style: 1.1;
     margin: 0 0 8px;
 }
+
+.home-text h3{
+    color: var(--text-color);
+    margin: 0 0 35px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.home-text p{
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-weight: 1.8;
+    margin-bottom: 40px;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all .45s ease;
+}
+.button:hover{
+    transform: scale(0.9);
+}
+
+header.sticky{
+    background: var(--bg-color);
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+}
