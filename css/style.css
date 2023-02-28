@@ -356,3 +356,83 @@ header.sticky{
     background: var(--main-color);
 }
 
+@media (max-width: 1480px){
+    header{
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+    header.sticky{
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+    section{
+        padding: 110px 3% 60px;
+    }
+    .end{
+        padding: 15px 3%;
+    }
+}
+
+@media (max-width: 1100px){
+    :root{
+        --big-font: 4rem;
+        --h2-font: 2.5rem;
+        --p-font: 1rem;
+        transition: .1s;
+    }
+    .home-text h3{
+        font-size: 2.5rem;
+    }
+    .home-pages{
+        height: 87vh;
+    }
+}
+
+@media (max-width: 920px){
+    .about-pages{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 840px){
+    #menu-icon{
+        display: block;
+    }
+    .nav{
+        position: absolute;
+        top: -1000%;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all .45s ease;
+    }
+    .nav a{
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
+    .nav a:hover{
+        color: var(--main-color);
+    }
+    .nav a.active{
+        color: var(--text-color);
+    }
+    .nav.open{
+        top: 100%;
+    }
+}
+
